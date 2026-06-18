@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "toDD5eqeVI0=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\pc\\source\\repos\\RetailERP\\RetailERP.API\\RetailERP.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pc\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.9\\microsoft.aspnetcore.openapi.10.0.9.nupkg.sha512",
+    "C:\\Users\\pc\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/Core/">
+    <Project Path="RetailERP.Application/RetailERP.Application.csproj" />
+    <Project Path="RetailERP.Domain/RetailERP.Domain.csproj" />
+  </Folder>
+  <Folder Name="/Infrastructure/">
+    <Project Path="RetailERP.Infrastructure/RetailERP.Infrastructure.csproj" />
+    <Project Path="RetailERP.Persistence/RetailERP.Persistence.csproj" />
+  </Folder>
+  <Folder Name="/Presentation/">
+    <Project Path="RetailERP.API/RetailERP.API.csproj" />
+  </Folder>
+</Solution>
