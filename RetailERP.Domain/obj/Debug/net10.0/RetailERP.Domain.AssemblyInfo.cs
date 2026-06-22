@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RetailERP.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+60cfde7c756eed812e95d9633dfb76c149ce62b8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c481669b19cbb9143d9f2ab59a82e09cd5f95330")]
 [assembly: System.Reflection.AssemblyProductAttribute("RetailERP.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RetailERP.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
