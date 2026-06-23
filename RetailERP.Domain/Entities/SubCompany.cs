@@ -13,3 +13,4 @@ namespace RetailERP.Domain.Entities
         public ICollection<BrandSubCompanyHistory> BrandHistories { get; set; } = new List<BrandSubCompanyHistory>();
     }
 }
+
