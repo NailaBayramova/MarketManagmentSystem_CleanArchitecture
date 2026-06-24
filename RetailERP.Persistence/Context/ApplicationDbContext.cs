@@ -23,6 +23,12 @@ namespace RetailERP.Persistence.Context
 
 
             // Configure entity relationships and constraints here if needed
+
+            modelBuilder.Entity<Brand>().HasQueryFilter(x => x.IsDeleted);
+            modelBuilder.Entity<Branch>().HasQueryFilter(x => x.IsDeleted);
+            modelBuilder.Entity<SubCompany>().HasQueryFilter(x => x.IsDeleted);
+            modelBuilder.Entity<BrandSubCompanyHistory>().HasQueryFilter(x => x.IsDeleted);
+
         }
     }
 }
