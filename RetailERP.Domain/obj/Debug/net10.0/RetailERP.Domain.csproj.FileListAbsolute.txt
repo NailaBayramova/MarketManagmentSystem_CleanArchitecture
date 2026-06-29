@@ -1,0 +1,5 @@
+C:\Users\pc\source\repos\RetailERP\RetailERP.Domain\obj\Debug\net10.0\RetailERP.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc\source\repos\RetailERP\RetailERP.Domain\obj\Debug\net10.0\RetailERP.Domain.AssemblyInfoInputs.cache
+C:\Users\pc\source\repos\RetailERP\RetailERP.Domain\obj\Debug\net10.0\RetailERP.Domain.AssemblyInfo.cs
+C:\Users\pc\source\repos\RetailERP\RetailERP.Domain\obj\Debug\net10.0\RetailERP.Domain.csproj.CoreCompileInputs.cache
+C:\Users\pc\source\repos\RetailERP\RetailERP.Domain\obj\Debug\net10.0\RetailERP.Domain.sourcelink.json
