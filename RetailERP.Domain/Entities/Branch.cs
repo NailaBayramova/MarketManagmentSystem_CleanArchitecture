@@ -50,5 +50,57 @@ namespace RetailERP.Domain.Entities
 
         }
 
+        public void Activate()
+        {
+            IsActive = true;
+            SetUpdateTime();
+        }   
+        public void Deactivate()
+        {
+            IsActive = false;
+            SetUpdateTime();
+        }
+
+        public void UpDateName( string name )
+        {
+            SetName(name);
+            SetUpdateTime();
+        }
+
+        public void UpDateAddress(string address)
+        {
+            SetAddress(address);
+            SetUpdateTime();
+        }
+        public void UpDatePhoneNumber(string phoneNumber)
+        {
+            SetPhoneNumber(phoneNumber);
+            SetUpdateTime();
+        }
+        public void Delete()
+        {
+            MarkAsDeleted();
+            SetUpdateTime();
+        }
+
+        private void SetName(string name)
+        {
+            if (string.IsNullOrWhiteSpace(name))
+                throw new ArgumentException("Branch name cannot be empty.");
+            Name = name.Trim();
+        }
+
+        private void SetAddress(string address)
+        {
+            if (string.IsNullOrWhiteSpace(address))
+                throw new ArgumentException("Branch address cannot be empty.");
+            Address = address.Trim();
+        }
+        private void SetPhoneNumber(string phoneNumber)
+        {
+            if (string.IsNullOrWhiteSpace(phoneNumber))
+                throw new ArgumentException("Branch phone number cannot be empty.");
+            PhoneNumber = phoneNumber.Trim();
+        }
     }
 }
