@@ -1,11 +1,12 @@
-﻿using System;
+﻿using RetailERP.Domain.Common;
+using System;
 using System.Collections.Generic;
 using System.Security.Cryptography;
 using System.Text;
 
 namespace RetailERP.Domain.Entities
 {
-    public class BranchInventory
+    public class BranchInventory : BaseEntity
     {
         private readonly List<InventoryTransaction> _transactions = [];
 
@@ -50,6 +51,41 @@ namespace RetailERP.Domain.Entities
                 minimumStockLevel );
         }
 
-        private InventoryTransaction IncreaseStock(int quantity, InventoryTransactionType type, string  description, string? source )
+        private InventoryTransaction IncreaseStock(int quantity, InventoryTransactionType type, string description, string? source, string? referenceCode)
+        {
+            if (quantity <= 0)
+                throw new ArgumentException("Quantity must be greater than zero");
+
+            Quantity += quantity;
+
+            InventoryTransaction transaction = InventoryTransaction.Create(Id, type, quantity, description, source, referenceCode);
+            AddTransaction(transaction);
+
+            SetUpdatedTime();
+            return transaction;
+        }
+       private InventoryTransaction DecreaseStrock (int quantity , InventoryTransactionType type,string description, string ? source ,string ? referenceCode)
+        {
+            if (quantity <= 0)
+                throw new ArgumentException("Quantity must be greater than zero");
+            if (Quantity < quantity)
+                throw new InvalidOperationException("Insuffient Stock ");
+            Quantity -= quantity;
+
+            InventoryTransaction transaction = InventoryTransaction.Create(Id, type, quantity, description, source, referenceCode);
+            AddTransaction(transaction);
+
+            SetUpdatedTime();
+            return transaction;
+        }
+        public InventoryTransaction AddStock(int quantity, string referenceCode)
+        {
+            return IncreaseStock(
+               quantity,
+               InventoryTransactionType.AddStock,
+               "Stock added.",
+               "Stock",
+               referenceCode);
+        }
     }
 }

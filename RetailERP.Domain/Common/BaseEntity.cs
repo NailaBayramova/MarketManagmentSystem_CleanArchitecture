@@ -24,7 +24,7 @@ namespace RetailERP.Domain.Common
             Id = Guid.NewGuid();
             CreatedAt = DateTime.UtcNow;
         }
-        protected void SetUpdateTime()
+        protected void SetUpdatedTime()
         {
             UpDatedAt = DateTime.UtcNow;
         }
