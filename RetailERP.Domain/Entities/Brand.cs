@@ -5,12 +5,18 @@ using System.Text;
 
 namespace RetailERP.Domain.Entities
 {
-   public class Brand:BaseEntity
+   public class Branch:BaseEntity
     {
-        public string  Name  { get; set; }=string.Empty;
-        public bool IsActive { get; set; } = true;
+        private readonly List<BranchInventory> _branchInventories = [];
+        private readonly List<Employee> _employees = [];
+        public string Name { get; private set; }
+        public string Address { get; private set; }
+        public string PhoneNumber { get; private set; }
+        public bool IsActive { get; private set; }
+        public Guid BrandId { get; private set; }
+        public Brand Brand { get; private set; } = null!;
 
-        public ICollection<Branch> Branches =new List<Branch>();
-        public ICollection<BrandSubCompanyHistory> BrandHistories { get; set; } = new List<BrandSubCompanyHistory>();
+
+
     }
 }

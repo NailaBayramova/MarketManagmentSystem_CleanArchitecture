@@ -2,6 +2,8 @@
 using RetailERP.Domain.Enums;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
 using System.Text;
 
 namespace RetailERP.Domain.Entities
@@ -26,7 +28,7 @@ namespace RetailERP.Domain.Entities
              int quantity,
              string description,
              string? referenceCode,
-             string source
+             string? source
 
             )
         {
@@ -38,12 +40,37 @@ namespace RetailERP.Domain.Entities
             Source = source;
 
         }
-        public static InventoryTransaction Create()
+        public static InventoryTransaction Create(
+            Guid BranchInventoryId,
+            InventoryTransactionType Type,
+            int Quantity,
+            string Description,
+            string? ReferenceCode = null,
+            string? Source = null)
         {
             return new InventoryTransaction(
-
-                );
+                BranchInventoryId,
+                Type,
+                Quantity,
+                Description,
+                ReferenceCode,
+                Source );
         }
+        private void SetQuantity(int quantity)
+        {
+            if (quantity <= 0)
+            {
+                throw new ArgumentException("Quantity must be greater than zero.");
+            }
+            Quantity = quantity;
+        }
+        private void SetDescription (string description)
+        {
+            if (string.IsNullOrWhiteSpace(description))
+                throw new ArgumentException("Description cannot be empty");
+            Description = description.Trim();  
+        }
+
 
     }
 }

@@ -53,34 +53,34 @@ namespace RetailERP.Domain.Entities
         public void Activate()
         {
             IsActive = true;
-            SetUpdateTime();
+            SetUpdatedTime();
         }   
         public void Deactivate()
         {
             IsActive = false;
-            SetUpdateTime();
+            SetUpdatedTime();
         }
 
         public void UpDateName( string name )
         {
             SetName(name);
-            SetUpdateTime();
+            SetUpdatedTime();
         }
 
         public void UpDateAddress(string address)
         {
             SetAddress(address);
-            SetUpdateTime();
+            SetUpdatedTime();
         }
         public void UpDatePhoneNumber(string phoneNumber)
         {
             SetPhoneNumber(phoneNumber);
-            SetUpdateTime();
+            SetUpdatedTime();
         }
         public void Delete()
         {
             MarkAsDeleted();
-            SetUpdateTime();
+            SetUpdatedTime();
         }
 
         private void SetName(string name)
