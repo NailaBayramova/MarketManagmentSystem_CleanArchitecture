@@ -5,16 +5,8 @@ using System.Text;
 
 namespace RetailERP.Domain.Entities
 {
-   public class Brand:BaseEntity
+    public class Brand : BaseEntity
     {
-        //private readonly List<BranchInventory> _branchInventories = [];
-        //private readonly List<Employee> _employees = [];
-        //public string Name { get; private set; }
-        //public string Address { get; private set; }
-        //public string PhoneNumber { get; private set; }
-        //public bool IsActive { get; private set; }
-        //public Guid BrandId { get; private set; }
-        //public Brand Brand { get; private set; } = null!;
         private readonly List<Branch> _branches = [];
         private readonly List<Product> _products = [];
         public string Name { get; private set; }
@@ -30,79 +22,66 @@ namespace RetailERP.Domain.Entities
         public IReadOnlyCollection<Product> Products => _products.AsReadOnly();
 
 
-        private Brand(string name, Guid subCompanyId)
+        private Brand()
         {
-            Name = name;
+        }
+
+        public Brand(
+            string name,
+            Guid subCompanyId)
+        {
+            SetName(name);
+
             SubCompanyId = subCompanyId;
+
+            IsActive = true;
         }
 
-
-        public Brand()
+        public void AddBranch(Branch branch)
         {
-            
+            _branches.Add(branch);
+
+            SetUpdatedTime();
         }
 
+        public void AddProduct(Product product)
+        {
+            _products.Add(product);
 
+            SetUpdatedTime();
+        }
 
+        public void Activate()
+        {
+            IsActive = true;
+            SetUpdatedTime();
+        }
 
+        public void Deactivate()
+        {
+            IsActive = false;
 
+            SetUpdatedTime();
+        }
 
+        public void UpdateName(string name)
+        {
+            SetName(name);
+            SetUpdatedTime();
+        }
 
+        private void SetName(string name)
+        {
+            if (string.IsNullOrWhiteSpace(name))
+                throw new ArgumentException("Brand name cannot be empty.");
 
+            Name = name;
+        }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        public void Delete()
+        {
+            MarkAsDeleted();
+            SetUpdatedTime();
+        }
     }
 }
