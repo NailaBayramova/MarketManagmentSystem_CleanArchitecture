@@ -26,8 +26,7 @@ namespace RetailERP.Domain.Entities
         public Brand Brand { get; private set; } = null!;
 
         public IReadOnlyCollection<BranchInventory> BranchInventories => _branchInventories.AsReadOnly();
-        public IReadOnlyCollection<ProductVariant> ProductVariants => _productVariants.AsReadOnly();
-
+        public IReadOnlyCollection<ProductVariant> ProductVariants => Variants => _variants;
 
         private Product()
         {
@@ -92,6 +91,29 @@ namespace RetailERP.Domain.Entities
                
             }
             Price = price;
+
+        }
+        /// <summary>
+        /// SetBarcode is deprecated. We now set the barcode during the Create behavior of the ProductVariant entity.
+        /// </summary>
+        /// <param name="barcode"></param>
+        /// <exception cref="ArgumentException"></exception>
+        private void SetBarcode(string barcode)
+        {
+            if (string.IsNullOrWhiteSpace(barcode))
+            {
+                throw new ArgumentException("Barcode cannot be empty");
+            }
+            Barcode = barcode.Trim();
+          
+
+        }
+        public ProductVariant AddVariants(string color, string size, string sku, string barcode)
+        {
+            ProductVariant variant = ProductVariant.Create(Id, color, size, sku, barcode);
+            _variants.Add(variant);
+            SetUpdatedTime();
+            return variant;
         }
     }
 }

@@ -52,7 +52,7 @@
               "RelativeDocumentMoniker": "RetailERP.Domain\\Entities\\Product.cs",
               "ToolTip": "C:\\Users\\pc\\source\\repos\\RetailERP\\RetailERP.Domain\\Entities\\Product.cs",
               "RelativeToolTip": "RetailERP.Domain\\Entities\\Product.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAYwF0AAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGoAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-21T10:32:08.736Z",
               "EditorCaption": ""
@@ -67,8 +67,7 @@
               "RelativeToolTip": "RetailERP.Domain\\Entities\\Position.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAwwAoAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-21T06:58:43.892Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-21T06:58:43.892Z"
             },
             {
               "$type": "Document",
@@ -80,8 +79,7 @@
               "RelativeToolTip": "RetailERP.Domain\\Entities\\EmployeeTransfer.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAkwFUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-20T08:28:30.666Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-20T08:28:30.666Z"
             },
             {
               "$type": "Document",
@@ -129,8 +127,7 @@
               "RelativeToolTip": "RetailERP.Domain\\Entities\\InventoryTransaction.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAAwEcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-14T06:39:05.548Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-14T06:39:05.548Z"
             },
             {
               "$type": "Document",
