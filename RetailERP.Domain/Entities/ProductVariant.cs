@@ -30,14 +30,26 @@ namespace RetailERP.Domain.Entities
             SetBarcode(barcode);
             
         }
-        public static ProductVariant Create (
-            
-            
-           
-            
-            
-            
-            
-            )
+        public static ProductVariant Create(Guid productId, string color, string size, string sku, string barcode)
+        {
+            return new ProductVariant(productId, color, size, sku, barcode);
+        }
+
+        private void SetColor(string color)
+        {
+            if (string.IsNullOrWhiteSpace(color))
+            {
+                throw new ArgumentNullException("Color cannot be empty ");
+            }
+            Color = color.Trim(); 
+        }
+         private  void SetSize(string size)
+        {
+            if (string.IsNullOrWhiteSpace(size))
+            {
+                throw new ArgumentNullException("Size cannot be empty ");
+            }
+            Size = size.Trim();
+        }
     }
 }

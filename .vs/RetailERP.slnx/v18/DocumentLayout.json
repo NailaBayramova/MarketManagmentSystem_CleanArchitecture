@@ -56,7 +56,7 @@
               "RelativeDocumentMoniker": "RetailERP.Domain\\Entities\\ProductVariant.cs",
               "ToolTip": "C:\\Users\\pc\\source\\repos\\RetailERP\\RetailERP.Domain\\Entities\\ProductVariant.cs",
               "RelativeToolTip": "RetailERP.Domain\\Entities\\ProductVariant.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAYwBgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAswDMAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-23T08:31:59.978Z",
               "EditorCaption": ""
@@ -71,8 +71,7 @@
               "RelativeToolTip": "RetailERP.Domain\\Entities\\Product.cs",
               "ViewState": "AgIAAIIAAAAAAAAAAAAYwJ8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-21T10:32:08.736Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-21T10:32:08.736Z"
             },
             {
               "$type": "Document",
