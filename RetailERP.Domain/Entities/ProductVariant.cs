@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Drawing;
+using System.Runtime.CompilerServices;
 using System.Text;
 
 namespace RetailERP.Domain.Entities
@@ -50,6 +51,22 @@ namespace RetailERP.Domain.Entities
                 throw new ArgumentNullException("Size cannot be empty ");
             }
             Size = size.Trim();
+        }
+        private void SetSku(string sku)
+        {
+            if (string.IsNullOrWhiteSpace(sku))
+            {
+                throw new ArgumentNullException(" Sku cannot be empty");
+            }
+            Sku = sku.Trim();
+        }
+        private void SetBarcode(string barcode)
+        {
+            if (string.IsNullOrWhiteSpace(barcode))
+            {
+                throw new ArgumentNullException("Barcode cannot be empty");
+            }
+            Barcode = barcode.Trim();
         }
     }
 }
