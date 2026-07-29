@@ -62,9 +62,9 @@
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\RetailERP\\RetailERP.Persistence\\Context\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "RetailERP.Persistence\\Context\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\RetailERP\\RetailERP.Persistence\\Context\\ApplicationDbContext.cs*",
-              "RelativeToolTip": "RetailERP.Persistence\\Context\\ApplicationDbContext.cs*",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAwwAoAAAAHAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\RetailERP\\RetailERP.Persistence\\Context\\ApplicationDbContext.cs",
+              "RelativeToolTip": "RetailERP.Persistence\\Context\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-28T11:04:47.422Z",
               "EditorCaption": ""
@@ -79,8 +79,7 @@
               "RelativeToolTip": "RetailERP.Domain\\Entities\\SubCompany.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAswAkAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-28T11:04:07.966Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-28T11:04:07.966Z"
             },
             {
               "$type": "Document",
@@ -92,8 +91,7 @@
               "RelativeToolTip": "RetailERP.Domain\\Entities\\ProductVariant.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAA3wEQAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T08:31:59.978Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-23T08:31:59.978Z"
             },
             {
               "$type": "Document",

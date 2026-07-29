@@ -1,10 +1,12 @@
-﻿using System;
+﻿using RetailERP.Domain.Common;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace RetailERP.Domain.Entities
 {
-    internal class Sale
+    public  class Sale:BaseEntity
     {
+        public Guid  SaleId { get; set; }
     }
 }
