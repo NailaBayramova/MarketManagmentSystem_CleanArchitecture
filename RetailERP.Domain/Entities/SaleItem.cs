@@ -1,10 +1,11 @@
-﻿using System;
+﻿using RetailERP.Domain.Common;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace RetailERP.Domain.Entities
 {
-    public class SaleItem
+    public class SaleItem : BaseEntity
     {
     }
 }

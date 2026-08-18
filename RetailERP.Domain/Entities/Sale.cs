@@ -24,13 +24,21 @@ namespace RetailERP.Domain.Entities
         {
             
         }
-        public Sale(Guid branchId, Guid employeeId, string invoiceNumber, PaymentMethod paymentMethod)
+        private Sale(Guid branchId, Guid employeeId, string invoiceNumber, PaymentMethod paymentMethod)
         {
             BranchId = branchId;
             EmployeeId = employeeId;
             InvoiceNumber = invoiceNumber;
             PaymentMethod = paymentMethod;
-            SetDate = DateTime.UtcNow;                            
+            SaleDate = DateTime.UtcNow;
         }
+
+        public static Sale Create(Guid branchId, Guid employeeId, string InvoiceNumber, PaymentMethod paymentMethod)
+        {
+            return new Sale(branchId, employeeId, InvoiceNumber, paymentMethod);
+        }
+      public void AddItem()
+
     }
+    
 }
