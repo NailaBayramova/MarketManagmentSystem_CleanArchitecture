@@ -37,7 +37,7 @@ namespace RetailERP.Domain.Entities
         {
             return new Sale(branchId, employeeId, InvoiceNumber, paymentMethod);
         }
-      public void AddItem()
+    
 
     }
     
