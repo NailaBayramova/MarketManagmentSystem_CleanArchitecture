@@ -19,10 +19,8 @@ namespace RetailERP.Domain.Entities
         public string Size { get; private set; }
         public string SKU { get; private set; }
 
-        public SaleItem()
-        {
-            
-        }
+
+        private SaleItem() { }
 
         private SaleItem(Guid productVariantId,
             string productName,
@@ -40,6 +38,37 @@ namespace RetailERP.Domain.Entities
             SetUnitPrice(unitPrice);
             SetQuantity(quantity);
             CalculateTotalPrice();
+        }
+
+        public static SaleItem Create(Guid productVariantId,
+            string productName,
+            string color,
+            string size,
+            string sku,
+            decimal unitPrice,
+            int quantity)
+        {
+            return new SaleItem(productVariantId, productName, unitPrice, quantity, color, size, sku);
+        }
+
+        private void SetUnitPrice(decimal price)
+        {
+            if (price <= 0)
+                throw new ArgumentException("Price must be greater than zero");
+
+            UnitPrice = price;
+        }
+
+        private void SetQuantity(int quantity)
+        {
+            if (quantity <= 0) throw new ArgumentException("Quantiy must be greater than zero");
+
+            Quantity = quantity;
+        }
+
+        private void CalculateTotalPrice()
+        {
+            TotalPrice = UnitPrice * Quantity;
         }
     }
 }
