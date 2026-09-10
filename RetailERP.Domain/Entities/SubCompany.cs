@@ -1,6 +1,7 @@
 ﻿using RetailERP.Domain.Common;
 using System;
 using System.Collections.Generic;
+using System.Runtime.InteropServices;
 using System.Text;
 
 namespace RetailERP.Domain.Entities
@@ -20,6 +21,25 @@ namespace RetailERP.Domain.Entities
         {
             SetName(name);
             IsActive = true;
+        }
+
+        public static SubCompany Create(string name)
+        {
+            return new SubCompany(name);
+        }
+        public void Activate()
+        {
+            IsActive = true;
+            SetUpdatedTime();
+        }
+
+        public void SetName(string name)
+        {
+            if (string.IsNullOrEmpty(name))
+            {
+                throw new ArgumentException("Name can not be  empty ");
+            }
+            Name = name.Trim();
         }
 
     }

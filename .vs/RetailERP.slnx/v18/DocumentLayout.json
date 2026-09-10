@@ -28,7 +28,7 @@
               "RelativeDocumentMoniker": "RetailERP.Domain\\Entities\\SubCompany.cs",
               "ToolTip": "C:\\Users\\pc\\source\\repos\\RetailERP\\RetailERP.Domain\\Entities\\SubCompany.cs",
               "RelativeToolTip": "RetailERP.Domain\\Entities\\SubCompany.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAcwCIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-04T11:11:04.686Z",
               "EditorCaption": ""
@@ -41,9 +41,10 @@
               "RelativeDocumentMoniker": "RetailERP.Domain\\Entities\\SaleItem.cs",
               "ToolTip": "C:\\Users\\pc\\source\\repos\\RetailERP\\RetailERP.Domain\\Entities\\SaleItem.cs",
               "RelativeToolTip": "RetailERP.Domain\\Entities\\SaleItem.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAADwv0cAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAswEcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-01T05:15:46.999Z"
+              "WhenOpened": "2026-09-01T05:15:46.999Z",
+              "EditorCaption": ""
             }
           ]
         }
