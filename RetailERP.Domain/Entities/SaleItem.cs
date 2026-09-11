@@ -69,6 +69,6 @@ namespace RetailERP.Domain.Entities
         private void CalculateTotalPrice()
         {
             TotalPrice = UnitPrice * Quantity;
-        }
+        }  
     }
 }

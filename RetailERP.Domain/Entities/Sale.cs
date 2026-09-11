@@ -6,7 +6,7 @@ using System.Text;
 
 namespace RetailERP.Domain.Entities
 {
-    public  class Sale:BaseEntity
+    public class Sale : BaseEntity
     {
         private readonly List<SaleItem> _items = [];
         public IReadOnlyCollection<SaleItem> Items => _items.AsReadOnly();
@@ -20,10 +20,8 @@ namespace RetailERP.Domain.Entities
         public PaymentMethod PaymentMethod { get; private set; }
         public DateTime SaleDate { get; private set; }
 
-        public Sale()
-        {
-            
-        }
+        private Sale() { }
+
         private Sale(Guid branchId, Guid employeeId, string invoiceNumber, PaymentMethod paymentMethod)
         {
             BranchId = branchId;
@@ -37,8 +35,28 @@ namespace RetailERP.Domain.Entities
         {
             return new Sale(branchId, employeeId, InvoiceNumber, paymentMethod);
         }
-    
 
+        public void AddItem(Guid productVariantId, string productName, string color, string size, string sku, decimal unitPrice, int quantity)
+        {
+            SaleItem item = SaleItem.Create(
+                productVariantId,
+                productName,
+                color,
+                size,
+                sku,
+                unitPrice,
+                quantity);
+
+            _items.Add(item);
+
+            CalculateTotalAmount();
+            SetUpdatedTime();
+        }
+
+        private void CalculateTotalAmount()
+        {
+            TotalAmount = _items.Sum(x => x.TotalPrice);
+        }
     }
     
 }
