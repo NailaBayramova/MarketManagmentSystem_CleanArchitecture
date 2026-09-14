@@ -19,4 +19,8 @@
     <ProjectReference Include="..\RetailERP.Domain\RetailERP.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Configur\" />
+  </ItemGroup>
+
 </Project>

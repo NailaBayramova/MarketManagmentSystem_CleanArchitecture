@@ -39,8 +39,7 @@
               "ViewState": "AgIAABEAAAAAAAAAAAAcwCIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-04T11:11:04.686Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -50,7 +49,7 @@
               "RelativeDocumentMoniker": "RetailERP.Domain\\Entities\\ProductVariant.cs",
               "ToolTip": "C:\\Users\\pc\\source\\repos\\RetailERP\\RetailERP.Domain\\Entities\\ProductVariant.cs",
               "RelativeToolTip": "RetailERP.Domain\\Entities\\ProductVariant.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAAEQAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-11T13:00:07.405Z",
               "EditorCaption": ""
@@ -65,8 +64,7 @@
               "RelativeToolTip": "RetailERP.Domain\\Entities\\Sale.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAqwDoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-11T12:59:08.132Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-11T12:59:08.132Z"
             },
             {
               "$type": "Document",
@@ -78,8 +76,7 @@
               "RelativeToolTip": "RetailERP.Domain\\Entities\\SaleItem.cs",
               "ViewState": "AgIAADYAAAAAAAAAAAAcwEcAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-01T05:15:46.999Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-01T05:15:46.999Z"
             }
           ]
         }
