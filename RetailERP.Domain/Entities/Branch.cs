@@ -27,7 +27,6 @@ namespace RetailERP.Domain.Entities
             string name,
             string address,
             string phoneNumber,
-
             Guid brandId)
         {
             SetName(name);

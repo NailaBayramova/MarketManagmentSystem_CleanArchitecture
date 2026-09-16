@@ -11,7 +11,6 @@ namespace RetailERP.Domain.Entities
     {
         private readonly List<BranchInventory> _branchInventories = [];
 
-
         public Guid ProductId { get; private set; }
         public Product Product { get; private set; } = null!;
         public string Color { get; private set; } = null!;
