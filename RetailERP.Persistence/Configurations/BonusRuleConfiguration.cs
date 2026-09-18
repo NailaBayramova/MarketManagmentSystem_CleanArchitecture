@@ -7,6 +7,9 @@ namespace RetailERP.Persistence.Configurations
 {
    public sealed class BonusRuleConfiguration : IEntityTypeConfiguration<BonusRule>
     {
+        public void Configure(EntityTypeBuilder<BonusRule> builder)
+        {
 
+        }
     }
 }
