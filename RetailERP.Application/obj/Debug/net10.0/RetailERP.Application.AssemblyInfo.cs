@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RetailERP.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6dfb951c873e1870df49e8cc65f6fd8e5691a146")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e5979f23a03a47f1e82e72ba399fb7ae1e281ee4")]
 [assembly: System.Reflection.AssemblyProductAttribute("RetailERP.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RetailERP.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
