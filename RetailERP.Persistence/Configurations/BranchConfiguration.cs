@@ -1,11 +1,11 @@
-﻿
+﻿  
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using RetailERP.Domain.Entities;
 
 namespace Persistance.Configurations
 {
-    public class BranchConfiguration : IEntityTypeConfiguration<Branch>
+    public sealed class BranchConfiguration : IEntityTypeConfiguration<Branch>
     {
         public void Configure(EntityTypeBuilder<Branch> builder)
         {

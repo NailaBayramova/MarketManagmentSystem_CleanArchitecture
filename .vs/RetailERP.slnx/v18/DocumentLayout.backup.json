@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\pc\\source\\repos\\RetailERP\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{966AD936-57C6-FDB8-CF5F-5839E2B9B975}|RetailERP.Persistence\\RetailERP.Persistence.csproj|c:\\users\\pc\\source\\repos\\retailerp\\retailerp.persistence\\configurations\\branchconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{966AD936-57C6-FDB8-CF5F-5839E2B9B975}|RetailERP.Persistence\\RetailERP.Persistence.csproj|solutionrelative:retailerp.persistence\\configurations\\branchconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB05E2D4-8C8F-22B4-2B8D-46E0978D42C8}|RetailERP.Domain\\RetailERP.Domain.csproj|c:\\users\\pc\\source\\repos\\retailerp\\retailerp.domain\\entities\\branch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB05E2D4-8C8F-22B4-2B8D-46E0978D42C8}|RetailERP.Domain\\RetailERP.Domain.csproj|solutionrelative:retailerp.domain\\entities\\branch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{966AD936-57C6-FDB8-CF5F-5839E2B9B975}|RetailERP.Persistence\\RetailERP.Persistence.csproj|c:\\users\\pc\\source\\repos\\retailerp\\retailerp.persistence\\configurations\\bonusruleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{966AD936-57C6-FDB8-CF5F-5839E2B9B975}|RetailERP.Persistence\\RetailERP.Persistence.csproj|solutionrelative:retailerp.persistence\\configurations\\bonusruleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DB05E2D4-8C8F-22B4-2B8D-46E0978D42C8}|RetailERP.Domain\\RetailERP.Domain.csproj|c:\\users\\pc\\source\\repos\\retailerp\\retailerp.domain\\entities\\bonusrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DB05E2D4-8C8F-22B4-2B8D-46E0978D42C8}|RetailERP.Domain\\RetailERP.Domain.csproj|solutionrelative:retailerp.domain\\entities\\bonusrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{966AD936-57C6-FDB8-CF5F-5839E2B9B975}|RetailERP.Persistence\\RetailERP.Persistence.csproj|c:\\users\\pc\\source\\repos\\retailerp\\retailerp.persistence\\configurations\\bonusscopeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{966AD936-57C6-FDB8-CF5F-5839E2B9B975}|RetailERP.Persistence\\RetailERP.Persistence.csproj|solutionrelative:retailerp.persistence\\configurations\\bonusscopeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +26,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Branch.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\RetailERP\\RetailERP.Domain\\Entities\\Branch.cs",
+              "RelativeDocumentMoniker": "RetailERP.Domain\\Entities\\Branch.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\RetailERP\\RetailERP.Domain\\Entities\\Branch.cs",
+              "RelativeToolTip": "RetailERP.Domain\\Entities\\Branch.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-28T13:37:53.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "BonusRule.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\RetailERP\\RetailERP.Domain\\Entities\\BonusRule.cs",
               "RelativeDocumentMoniker": "RetailERP.Domain\\Entities\\BonusRule.cs",
@@ -34,31 +51,30 @@
               "RelativeToolTip": "RetailERP.Domain\\Entities\\BonusRule.cs",
               "ViewState": "AgIAADEAAAAAAAAAAAAUwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-28T05:52:45.791Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-28T05:52:45.791Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "BonusRuleConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\RetailERP\\RetailERP.Persistence\\Configurations\\BonusRuleConfiguration.cs",
               "RelativeDocumentMoniker": "RetailERP.Persistence\\Configurations\\BonusRuleConfiguration.cs",
               "ToolTip": "C:\\Users\\pc\\source\\repos\\RetailERP\\RetailERP.Persistence\\Configurations\\BonusRuleConfiguration.cs",
               "RelativeToolTip": "RetailERP.Persistence\\Configurations\\BonusRuleConfiguration.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBgAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAswCMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-22T06:50:43.827Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BonusScopeConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\RetailERP\\RetailERP.Persistence\\Configurations\\BonusScopeConfiguration.cs",
-              "RelativeDocumentMoniker": "RetailERP.Persistence\\Configurations\\BonusScopeConfiguration.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\RetailERP\\RetailERP.Persistence\\Configurations\\BonusScopeConfiguration.cs*",
-              "RelativeToolTip": "RetailERP.Persistence\\Configurations\\BonusScopeConfiguration.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "BranchConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\RetailERP\\RetailERP.Persistence\\Configurations\\BranchConfiguration.cs",
+              "RelativeDocumentMoniker": "RetailERP.Persistence\\Configurations\\BranchConfiguration.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\RetailERP\\RetailERP.Persistence\\Configurations\\BranchConfiguration.cs",
+              "RelativeToolTip": "RetailERP.Persistence\\Configurations\\BranchConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-26T16:29:56.668Z",
               "EditorCaption": ""

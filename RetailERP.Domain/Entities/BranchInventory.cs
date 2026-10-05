@@ -8,7 +8,7 @@ public class BranchInventory : BaseEntity
     public Guid ProductVariantId { get; private set; }
 
     public ProductVariant ProductVariant { get; private set; } = null!;
-
+         
     public Guid BranchId { get; private set; }
 
     public Branch Branch { get; private set; } = null!;
