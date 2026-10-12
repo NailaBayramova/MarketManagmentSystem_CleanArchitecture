@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore.Metadata.Builders;
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using RetailERP.Domain.Entities;
 using System;
 using System.Collections.Generic;
@@ -6,24 +7,27 @@ using System.Text;
 
 namespace RetailERP.Persistence.Configurations
 {
-    public class BrandConfiguration
+
+    public sealed class BrandConfiguration : IEntityTypeConfiguration<Brand>
     {
         public void Configure(EntityTypeBuilder<Brand> builder)
         {
-            builder.HasKey(x => x.Id);
+            builder.ToTable("Brands");
 
-            builder.Property(x => x.Name)
-                            .IsRequired()
-                            .HasMaxLength(100);
+                builder.HasKey(x => x.Id);
 
-            builder.Property(x => x.IsActive)
-                             .IsRequired();
+                builder.Property(x => x.Name)
+                    .IsRequired()
+                    .HasMaxLength(100);
 
-            builder.Property(x => x.SubCompany)
-                            .IsRequired();
-            builder.HasOne
-                
+                builder.Property(x => x.IsActive)
+                    .IsRequired();
 
-        }          
-    }
+                builder.HasOne(x => x.SubCompany)
+                    .WithMany(x => x.Brands)
+                    .HasForeignKey(x => x.SubCompanyId)
+                    .OnDelete(DeleteBehavior.Restrict);
+            }
+        }
+    
 }
