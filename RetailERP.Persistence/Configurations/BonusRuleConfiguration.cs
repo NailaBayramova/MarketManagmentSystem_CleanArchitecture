@@ -9,6 +9,8 @@ namespace RetailERP.Persistence.Configurations
     {
         public void Configure(EntityTypeBuilder<BonusRule> builder)
         {
+            builder.ToTable("BonusRules");
+
             builder.HasKey(x => x.Id);
 
             builder.Property(x => x.MinimumSales)
