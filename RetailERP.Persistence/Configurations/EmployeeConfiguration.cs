@@ -11,16 +11,40 @@ namespace RetailERP.Persistence.Configurations
     {
         public void Configure(EntityTypeBuilder<Employee> builder)
         {
+            builder.ToTable("Employees");
+
             builder.HasKey(x => x.Id);
 
             builder.Property(x => x.FirstName)
-                    .HasMaxLength(100);
+                .IsRequired()
+                .HasMaxLength(100);
 
             builder.Property(x => x.LastName)
-                    .HasMaxLength(100);
+                .IsRequired()
+                .HasMaxLength(100);
+
+            builder.Property(x => x.EmployeeCode)
+                .IsRequired()
+                .HasMaxLength(50);
 
             builder.Property(x => x.IsActive)
-                    .IsRequired();
+                .IsRequired();
+
+            builder.HasIndex(x => x.EmployeeCode)
+                .IsUnique();
+
+            builder.Property(x => x.HireDate)
+                .IsRequired();
+
+            builder.HasOne(x => x.Branch)
+                .WithMany(x => x.Employees)
+                .HasForeignKey(x => x.BranchId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            builder.HasOne(x => x.Position)
+                .WithMany()
+                .HasForeignKey(x => x.PositionId)
+                .OnDelete(DeleteBehavior.Restrict);
         }
     }
 }
