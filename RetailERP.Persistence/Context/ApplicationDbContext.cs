@@ -30,7 +30,13 @@ namespace RetailERP.Persistence.Context
             public DbSet<Position> Positions => Set<Position>();
             public DbSet<EmployeeTransfer> EmployeeTransfers => Set<EmployeeTransfer>();
             public DbSet<BonusRule> BonusRules => Set<BonusRule>();
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.ApplyConfigurationsFromAssembly(typeof(ApplicationDbContext).Assembly);
+            base.OnModelCreating(modelBuilder);
         }
+    }
     
 
 }

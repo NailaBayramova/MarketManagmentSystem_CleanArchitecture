@@ -10,3 +10,4 @@ C:\Users\pc\source\repos\RetailERP\RetailERP.Infrastructure\obj\Debug\net10.0\Re
 C:\Users\pc\source\repos\RetailERP\RetailERP.Infrastructure\obj\Debug\net10.0\refint\RetailERP.Infrastructure.dll
 C:\Users\pc\source\repos\RetailERP\RetailERP.Infrastructure\obj\Debug\net10.0\RetailERP.Infrastructure.pdb
 C:\Users\pc\source\repos\RetailERP\RetailERP.Infrastructure\obj\Debug\net10.0\ref\RetailERP.Infrastructure.dll
+C:\Users\pc\source\repos\RetailERP\RetailERP.Infrastructure\obj\Debug\net10.0\RetailER.D8346578.Up2Date

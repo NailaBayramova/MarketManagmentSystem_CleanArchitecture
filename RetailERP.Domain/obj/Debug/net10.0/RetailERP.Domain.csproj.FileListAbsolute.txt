@@ -10,3 +10,4 @@ C:\Users\pc\source\repos\RetailERP\RetailERP.Domain\obj\Debug\net10.0\RetailERP.
 C:\Users\pc\source\repos\RetailERP\RetailERP.Domain\obj\Debug\net10.0\refint\RetailERP.Domain.dll
 C:\Users\pc\source\repos\RetailERP\RetailERP.Domain\obj\Debug\net10.0\RetailERP.Domain.pdb
 C:\Users\pc\source\repos\RetailERP\RetailERP.Domain\obj\Debug\net10.0\ref\RetailERP.Domain.dll
+C:\Users\pc\source\repos\RetailERP\RetailERP.Domain\obj\Debug\net10.0\RetailER.30F58405.Up2Date

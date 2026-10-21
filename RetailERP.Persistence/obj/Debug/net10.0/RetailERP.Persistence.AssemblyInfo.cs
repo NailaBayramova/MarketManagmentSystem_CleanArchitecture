@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RetailERP.Persistence")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e2b5ee6adedd3cb10244a677557b1e4da45170bf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+745781acdb81bf067d9ff8190241e640104e7a86")]
 [assembly: System.Reflection.AssemblyProductAttribute("RetailERP.Persistence")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RetailERP.Persistence")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
