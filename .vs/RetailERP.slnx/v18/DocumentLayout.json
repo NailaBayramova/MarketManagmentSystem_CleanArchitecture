@@ -69,7 +69,7 @@
               "RelativeDocumentMoniker": "RetailERP.Persistence\\Extensions\\ServiceCollectionExtentions.cs",
               "ToolTip": "C:\\Users\\pc\\source\\repos\\RetailERP\\RetailERP.Persistence\\Extensions\\ServiceCollectionExtentions.cs",
               "RelativeToolTip": "RetailERP.Persistence\\Extensions\\ServiceCollectionExtentions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAUwA8AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-22T13:14:11.74Z",
               "EditorCaption": ""
@@ -84,8 +84,7 @@
               "RelativeToolTip": "RetailERP.Domain\\Enums\\BonusScope.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T13:21:55.083Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-21T13:21:55.083Z"
             },
             {
               "$type": "Document",
