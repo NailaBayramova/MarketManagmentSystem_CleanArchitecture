@@ -13,6 +13,13 @@ namespace RetailERP.Persistence.Extensions
             //services.AddScoped(typeof(IReadRepository<>), typeof(ReadRepository<>));
             //services.AddScoped(typeof(IWriteRepository<>), typeof(WriteRepository<>));
 
+
+            //services.AddScoped<IBrandReadRepository, BrandReadRepository>();
+            //services.AddScoped<IBrandWriteRepository, BrandWriteRepository>();
+
+            //services.AddScoped<ISubCompanyWriteRepository, SubCompanyWriteRepository>();
+            //services.AddScoped<ISubCompanyReadRepository, SubCompanyReadRepository>();
+
             return services;
         }
     }
