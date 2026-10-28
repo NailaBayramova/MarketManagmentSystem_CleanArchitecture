@@ -21,4 +21,9 @@
     <ProjectReference Include="..\RetailERP.Domain\RetailERP.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Repositories\Write_Common\" />
+    <Folder Include="Repositories\Read_Common\" />
+  </ItemGroup>
+
 </Project>
