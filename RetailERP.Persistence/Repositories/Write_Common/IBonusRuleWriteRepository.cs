@@ -1,10 +1,11 @@
-﻿using System;
+﻿using RetailERP.Domain.Entities;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace RetailERP.Persistence.Repositories.Write_Common
 {
-    public sealed class BonusRuleWriteRepository
+    public interface IBonusRuleWriteRepository:IWriteRepository<BonusRule>
     {
     }
 }
