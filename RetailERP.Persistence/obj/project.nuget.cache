@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "44AG7v9QU0c=",
+  "dgSpecHash": "jfj8OC1Ux5s=",
   "success": true,
   "projectFilePath": "C:\\Users\\pc\\source\\repos\\RetailERP\\RetailERP.Persistence\\RetailERP.Persistence.csproj",
   "expectedPackageFiles": [
@@ -65,5 +65,30 @@
     "C:\\Users\\pc\\.nuget\\packages\\system.security.cryptography.pkcs\\9.0.11\\system.security.cryptography.pkcs.9.0.11.nupkg.sha512",
     "C:\\Users\\pc\\.nuget\\packages\\system.security.cryptography.protecteddata\\9.0.11\\system.security.cryptography.protecteddata.9.0.11.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'System.Security.Cryptography.Pkcs' 9.0.11 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-2fmv-rv2c-59x7",
+      "projectPath": "C:\\Users\\pc\\source\\repos\\RetailERP\\RetailERP.Persistence\\RetailERP.Persistence.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\pc\\source\\repos\\RetailERP\\RetailERP.Persistence\\RetailERP.Persistence.csproj",
+      "libraryId": "System.Security.Cryptography.Pkcs",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'System.Security.Cryptography.Pkcs' 9.0.11 has a known high severity vulnerability, https://github.com/advisories/GHSA-846f-f764-76mx",
+      "projectPath": "C:\\Users\\pc\\source\\repos\\RetailERP\\RetailERP.Persistence\\RetailERP.Persistence.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\pc\\source\\repos\\RetailERP\\RetailERP.Persistence\\RetailERP.Persistence.csproj",
+      "libraryId": "System.Security.Cryptography.Pkcs",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
 }

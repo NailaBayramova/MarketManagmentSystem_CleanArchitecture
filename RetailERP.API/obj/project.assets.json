@@ -581,38 +581,13 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
-      "RetailERP.Application/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v10.0",
-        "dependencies": {
-          "RetailERP.Domain": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/RetailERP.Application.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/RetailERP.Application.dll": {}
-        }
-      },
-      "RetailERP.Domain/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v10.0",
-        "compile": {
-          "bin/placeholder/RetailERP.Domain.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/RetailERP.Domain.dll": {}
-        }
-      },
       "RetailERP.Persistence/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "10.0.12",
           "Microsoft.EntityFrameworkCore.SqlServer": "10.0.12",
-          "Npgsql.EntityFrameworkCore.PostgreSQL": "10.0.2",
-          "RetailERP.Application": "1.0.0",
-          "RetailERP.Domain": "1.0.0"
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "10.0.2"
         },
         "compile": {
           "bin/placeholder/RetailERP.Persistence.dll": {}
@@ -1328,16 +1303,6 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "RetailERP.Application/1.0.0": {
-      "type": "project",
-      "path": "../RetailERP.Application/RetailERP.Application.csproj",
-      "msbuildProject": "../RetailERP.Application/RetailERP.Application.csproj"
-    },
-    "RetailERP.Domain/1.0.0": {
-      "type": "project",
-      "path": "../RetailERP.Domain/RetailERP.Domain.csproj",
-      "msbuildProject": "../RetailERP.Domain/RetailERP.Domain.csproj"
-    },
     "RetailERP.Persistence/1.0.0": {
       "type": "project",
       "path": "../RetailERP.Persistence/RetailERP.Persistence.csproj",
@@ -1347,7 +1312,6 @@
   "projectFileDependencyGroups": {
     "net10.0": [
       "Microsoft.AspNetCore.OpenApi >= 10.0.9",
-      "RetailERP.Application >= 1.0.0",
       "RetailERP.Persistence >= 1.0.0"
     ]
   },
@@ -1385,9 +1349,6 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Users\\pc\\source\\repos\\RetailERP\\RetailERP.Application\\RetailERP.Application.csproj": {
-              "projectPath": "C:\\Users\\pc\\source\\repos\\RetailERP\\RetailERP.Application\\RetailERP.Application.csproj"
-            },
             "C:\\Users\\pc\\source\\repos\\RetailERP\\RetailERP.Persistence\\RetailERP.Persistence.csproj": {
               "projectPath": "C:\\Users\\pc\\source\\repos\\RetailERP\\RetailERP.Persistence\\RetailERP.Persistence.csproj"
             }
@@ -1860,6 +1821,26 @@
       "warningLevel": 1,
       "message": "Package 'Microsoft.OpenApi' 2.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-v5pm-xwqc-g5wc",
       "libraryId": "Microsoft.OpenApi",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Security.Cryptography.Pkcs' 9.0.11 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-2fmv-rv2c-59x7",
+      "libraryId": "System.Security.Cryptography.Pkcs",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Security.Cryptography.Pkcs' 9.0.11 has a known high severity vulnerability, https://github.com/advisories/GHSA-846f-f764-76mx",
+      "libraryId": "System.Security.Cryptography.Pkcs",
       "targetGraphs": [
         "net10.0"
       ]
