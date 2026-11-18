@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\pc\\source\\repos\\RetailERP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D1CA6556-D7ED-49E3-B39B-99D7C1CBBB84}|NewFolder1{D1CA6556-D7ED-49E3-B39B-99D7C1CBBB84}|C:\\Users\\pc\\source\\repos\\RetailERP\\RetailERP.Domain\\Entities\\Brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1CA6556-D7ED-49E3-B39B-99D7C1CBBB84}|NewFolder1{D1CA6556-D7ED-49E3-B39B-99D7C1CBBB84}|solutionrelative:RetailERP.Domain\\Entities\\Brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1CA6556-D7ED-49E3-B39B-99D7C1CBBB84}|NewFolder1{D1CA6556-D7ED-49E3-B39B-99D7C1CBBB84}|C:\\Users\\pc\\source\\repos\\RetailERP\\RetailERP.Domain\\Entities\\BranchInventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1CA6556-D7ED-49E3-B39B-99D7C1CBBB84}|NewFolder1{D1CA6556-D7ED-49E3-B39B-99D7C1CBBB84}|solutionrelative:RetailERP.Domain\\Entities\\BranchInventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1CA6556-D7ED-49E3-B39B-99D7C1CBBB84}|NewFolder1{D1CA6556-D7ED-49E3-B39B-99D7C1CBBB84}|C:\\Users\\pc\\source\\repos\\RetailERP\\RetailERP.Domain\\Entities\\Branch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1CA6556-D7ED-49E3-B39B-99D7C1CBBB84}|NewFolder1{D1CA6556-D7ED-49E3-B39B-99D7C1CBBB84}|solutionrelative:RetailERP.Domain\\Entities\\Branch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1CA6556-D7ED-49E3-B39B-99D7C1CBBB84}|NewFolder1{D1CA6556-D7ED-49E3-B39B-99D7C1CBBB84}|C:\\Users\\pc\\source\\repos\\RetailERP\\RetailERP.Domain\\Entities\\BonusRule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1CA6556-D7ED-49E3-B39B-99D7C1CBBB84}|NewFolder1{D1CA6556-D7ED-49E3-B39B-99D7C1CBBB84}|solutionrelative:RetailERP.Domain\\Entities\\BonusRule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1937F713-DA54-91D6-C834-663F3147DB79}|Entities{1937F713-DA54-91D6-C834-663F3147DB79}|C:\\Users\\pc\\source\\repos\\RetailERP\\RetailERP.Domain\\Entities\\Brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1937F713-DA54-91D6-C834-663F3147DB79}|Entities{1937F713-DA54-91D6-C834-663F3147DB79}|solutionrelative:RetailERP.Domain\\Entities\\Brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{966AD936-57C6-FDB8-CF5F-5839E2B9B975}|RetailERP.Persistence\\RetailERP.Persistence.csproj|c:\\users\\pc\\source\\repos\\retailerp\\retailerp.persistence\\repositories\\write_common\\ibrandwriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -85,6 +73,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{966AD936-57C6-FDB8-CF5F-5839E2B9B975}|RetailERP.Persistence\\RetailERP.Persistence.csproj|c:\\users\\pc\\source\\repos\\retailerp\\retailerp.persistence\\configurations\\employeeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{966AD936-57C6-FDB8-CF5F-5839E2B9B975}|RetailERP.Persistence\\RetailERP.Persistence.csproj|solutionrelative:retailerp.persistence\\configurations\\employeeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1937F713-DA54-91D6-C834-663F3147DB79}|Entities{1937F713-DA54-91D6-C834-663F3147DB79}|C:\\Users\\pc\\source\\repos\\RetailERP\\RetailERP.Domain\\Entities\\BranchInventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1937F713-DA54-91D6-C834-663F3147DB79}|Entities{1937F713-DA54-91D6-C834-663F3147DB79}|solutionrelative:RetailERP.Domain\\Entities\\BranchInventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1937F713-DA54-91D6-C834-663F3147DB79}|Entities{1937F713-DA54-91D6-C834-663F3147DB79}|C:\\Users\\pc\\source\\repos\\RetailERP\\RetailERP.Domain\\Entities\\Branch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1937F713-DA54-91D6-C834-663F3147DB79}|Entities{1937F713-DA54-91D6-C834-663F3147DB79}|solutionrelative:RetailERP.Domain\\Entities\\Branch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1937F713-DA54-91D6-C834-663F3147DB79}|Entities{1937F713-DA54-91D6-C834-663F3147DB79}|C:\\Users\\pc\\source\\repos\\RetailERP\\RetailERP.Domain\\Entities\\BonusRule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1937F713-DA54-91D6-C834-663F3147DB79}|Entities{1937F713-DA54-91D6-C834-663F3147DB79}|solutionrelative:RetailERP.Domain\\Entities\\BonusRule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -104,14 +104,15 @@
               "RelativeDocumentMoniker": "RetailERP.Domain\\Entities\\Brand.cs",
               "ToolTip": "C:\\Users\\pc\\source\\repos\\RetailERP\\RetailERP.Domain\\Entities\\Brand.cs",
               "RelativeToolTip": "RetailERP.Domain\\Entities\\Brand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAADUAAAAAAAAAAAAowFQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-17T07:18:51.45Z",
-              "EditorCaption": ""
+              "EditorCaption": "",
+              "OwnerCaption": "%3"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 18,
               "Title": "BranchInventory.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\RetailERP\\RetailERP.Domain\\Entities\\BranchInventory.cs",
               "RelativeDocumentMoniker": "RetailERP.Domain\\Entities\\BranchInventory.cs",
@@ -120,11 +121,11 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-17T07:18:49.403Z",
-              "EditorCaption": ""
+              "OwnerCaption": "%3"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 19,
               "Title": "Branch.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\RetailERP\\RetailERP.Domain\\Entities\\Branch.cs",
               "RelativeDocumentMoniker": "RetailERP.Domain\\Entities\\Branch.cs",
@@ -133,11 +134,11 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-17T07:18:47.797Z",
-              "EditorCaption": ""
+              "OwnerCaption": "%3"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 20,
               "Title": "BonusRule.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\RetailERP\\RetailERP.Domain\\Entities\\BonusRule.cs",
               "RelativeDocumentMoniker": "RetailERP.Domain\\Entities\\BonusRule.cs",
@@ -146,11 +147,11 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-17T07:18:45.36Z",
-              "EditorCaption": ""
+              "OwnerCaption": "%3"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "IBranchInventoryWriteRepository.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\RetailERP\\RetailERP.Persistence\\Repositories\\Write_Common\\IBranchInventoryWriteRepository.cs",
               "RelativeDocumentMoniker": "RetailERP.Persistence\\Repositories\\Write_Common\\IBranchInventoryWriteRepository.cs",
@@ -158,11 +159,12 @@
               "RelativeToolTip": "RetailERP.Persistence\\Repositories\\Write_Common\\IBranchInventoryWriteRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-05T11:15:34.942Z"
+              "WhenOpened": "2026-11-05T11:15:34.942Z",
+              "OwnerCaption": "%2"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "IBrandWriteRepository.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\RetailERP\\RetailERP.Persistence\\Repositories\\Write_Common\\IBrandWriteRepository.cs",
               "RelativeDocumentMoniker": "RetailERP.Persistence\\Repositories\\Write_Common\\IBrandWriteRepository.cs",
@@ -170,11 +172,12 @@
               "RelativeToolTip": "RetailERP.Persistence\\Repositories\\Write_Common\\IBrandWriteRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-06T06:50:34.331Z"
+              "WhenOpened": "2026-11-06T06:50:34.331Z",
+              "OwnerCaption": "%2"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "IBonusRuleWriteRepository.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\RetailERP\\RetailERP.Persistence\\Repositories\\Write_Common\\IBonusRuleWriteRepository.cs",
               "RelativeDocumentMoniker": "RetailERP.Persistence\\Repositories\\Write_Common\\IBonusRuleWriteRepository.cs",
@@ -182,11 +185,12 @@
               "RelativeToolTip": "RetailERP.Persistence\\Repositories\\Write_Common\\IBonusRuleWriteRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-05T11:14:03.038Z"
+              "WhenOpened": "2026-11-05T11:14:03.038Z",
+              "OwnerCaption": "%2"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\RetailERP\\RetailERP.Persistence\\Context\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "RetailERP.Persistence\\Context\\ApplicationDbContext.cs",
@@ -194,11 +198,12 @@
               "RelativeToolTip": "RetailERP.Persistence\\Context\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAACMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-19T13:29:24.644Z"
+              "WhenOpened": "2026-10-19T13:29:24.644Z",
+              "OwnerCaption": "%2"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 7,
               "Title": "IProductVariantRepository.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\RetailERP\\RetailERP.Persistence\\Repositories\\Write_Common\\IProductVariantRepository.cs",
               "RelativeDocumentMoniker": "RetailERP.Persistence\\Repositories\\Write_Common\\IProductVariantRepository.cs",
@@ -206,11 +211,12 @@
               "RelativeToolTip": "RetailERP.Persistence\\Repositories\\Write_Common\\IProductVariantRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-06T07:44:53.6Z"
+              "WhenOpened": "2026-11-06T07:44:53.6Z",
+              "OwnerCaption": "%2"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "ISubCompanyWriteRepository.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\RetailERP\\RetailERP.Persistence\\Repositories\\Write_Common\\ISubCompanyWriteRepository.cs",
               "RelativeDocumentMoniker": "RetailERP.Persistence\\Repositories\\Write_Common\\ISubCompanyWriteRepository.cs",
@@ -218,11 +224,12 @@
               "RelativeToolTip": "RetailERP.Persistence\\Repositories\\Write_Common\\ISubCompanyWriteRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-06T07:49:08.6Z"
+              "WhenOpened": "2026-11-06T07:49:08.6Z",
+              "OwnerCaption": "%2"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
               "Title": "ISaleWriteRepository.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\RetailERP\\RetailERP.Persistence\\Repositories\\Write_Common\\ISaleWriteRepository.cs",
               "RelativeDocumentMoniker": "RetailERP.Persistence\\Repositories\\Write_Common\\ISaleWriteRepository.cs",
@@ -230,11 +237,12 @@
               "RelativeToolTip": "RetailERP.Persistence\\Repositories\\Write_Common\\ISaleWriteRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-06T07:47:18.924Z"
+              "WhenOpened": "2026-11-06T07:47:18.924Z",
+              "OwnerCaption": "%2"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 8,
               "Title": "IProductWriteRepository.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\RetailERP\\RetailERP.Persistence\\Repositories\\Write_Common\\IProductWriteRepository.cs",
               "RelativeDocumentMoniker": "RetailERP.Persistence\\Repositories\\Write_Common\\IProductWriteRepository.cs",
@@ -242,11 +250,12 @@
               "RelativeToolTip": "RetailERP.Persistence\\Repositories\\Write_Common\\IProductWriteRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-06T07:43:26.571Z"
+              "WhenOpened": "2026-11-06T07:43:26.571Z",
+              "OwnerCaption": "%2"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 9,
               "Title": "IPositionWriteRepository.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\RetailERP\\RetailERP.Persistence\\Repositories\\Write_Common\\IPositionWriteRepository.cs",
               "RelativeDocumentMoniker": "RetailERP.Persistence\\Repositories\\Write_Common\\IPositionWriteRepository.cs",
@@ -254,11 +263,12 @@
               "RelativeToolTip": "RetailERP.Persistence\\Repositories\\Write_Common\\IPositionWriteRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-06T07:40:59.455Z"
+              "WhenOpened": "2026-11-06T07:40:59.455Z",
+              "OwnerCaption": "%2"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 10,
               "Title": "IInventoryTransactionWriteRepository.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\RetailERP\\RetailERP.Persistence\\Repositories\\Write_Common\\IInventoryTransactionWriteRepository.cs",
               "RelativeDocumentMoniker": "RetailERP.Persistence\\Repositories\\Write_Common\\IInventoryTransactionWriteRepository.cs",
@@ -266,11 +276,12 @@
               "RelativeToolTip": "RetailERP.Persistence\\Repositories\\Write_Common\\IInventoryTransactionWriteRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-06T06:54:15.477Z"
+              "WhenOpened": "2026-11-06T06:54:15.477Z",
+              "OwnerCaption": "%2"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 12,
               "Title": "IEployeeTransferWriteRepository.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\RetailERP\\RetailERP.Persistence\\Repositories\\Write_Common\\IEployeeTransferWriteRepository.cs",
               "RelativeDocumentMoniker": "RetailERP.Persistence\\Repositories\\Write_Common\\IEployeeTransferWriteRepository.cs",
@@ -278,11 +289,12 @@
               "RelativeToolTip": "RetailERP.Persistence\\Repositories\\Write_Common\\IEployeeTransferWriteRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-05T11:47:56.112Z"
+              "WhenOpened": "2026-11-05T11:47:56.112Z",
+              "OwnerCaption": "%2"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 13,
               "Title": "IEmployeeWriteRepository.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\RetailERP\\RetailERP.Persistence\\Repositories\\Write_Common\\IEmployeeWriteRepository.cs",
               "RelativeDocumentMoniker": "RetailERP.Persistence\\Repositories\\Write_Common\\IEmployeeWriteRepository.cs",
@@ -290,11 +302,12 @@
               "RelativeToolTip": "RetailERP.Persistence\\Repositories\\Write_Common\\IEmployeeWriteRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-06T06:46:00.967Z"
+              "WhenOpened": "2026-11-06T06:46:00.967Z",
+              "OwnerCaption": "%2"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 11,
               "Title": "IWriteRepository.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\RetailERP\\RetailERP.Persistence\\Repositories\\Write_Common\\IWriteRepository.cs",
               "RelativeDocumentMoniker": "RetailERP.Persistence\\Repositories\\Write_Common\\IWriteRepository.cs",
@@ -302,11 +315,12 @@
               "RelativeToolTip": "RetailERP.Persistence\\Repositories\\Write_Common\\IWriteRepository.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAYwBAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-04T13:41:25.438Z"
+              "WhenOpened": "2026-11-04T13:41:25.438Z",
+              "OwnerCaption": "%2"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 14,
               "Title": "WriteRepository.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\RetailERP\\RetailERP.Persistence\\Repositories\\Write_Common\\WriteRepository.cs",
               "RelativeDocumentMoniker": "RetailERP.Persistence\\Repositories\\Write_Common\\WriteRepository.cs",
@@ -314,11 +328,12 @@
               "RelativeToolTip": "RetailERP.Persistence\\Repositories\\Write_Common\\WriteRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-03T05:31:58.563Z"
+              "WhenOpened": "2026-11-03T05:31:58.563Z",
+              "OwnerCaption": "%2"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 15,
               "Title": "ServiceCollectionExtentions.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\RetailERP\\RetailERP.Persistence\\Extensions\\ServiceCollectionExtentions.cs",
               "RelativeDocumentMoniker": "RetailERP.Persistence\\Extensions\\ServiceCollectionExtentions.cs",
@@ -326,11 +341,12 @@
               "RelativeToolTip": "RetailERP.Persistence\\Extensions\\ServiceCollectionExtentions.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAqwB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-22T13:14:11.74Z"
+              "WhenOpened": "2026-10-22T13:14:11.74Z",
+              "OwnerCaption": "%2"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 17,
               "Title": "EmployeeConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\RetailERP\\RetailERP.Persistence\\Configurations\\EmployeeConfiguration.cs",
               "RelativeDocumentMoniker": "RetailERP.Persistence\\Configurations\\EmployeeConfiguration.cs",
@@ -338,11 +354,12 @@
               "RelativeToolTip": "RetailERP.Persistence\\Configurations\\EmployeeConfiguration.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-16T13:42:37.734Z"
+              "WhenOpened": "2026-10-16T13:42:37.734Z",
+              "OwnerCaption": "%2"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 16,
               "Title": "SaleCofiguration.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\RetailERP\\RetailERP.Persistence\\Configurations\\SaleCofiguration.cs",
               "RelativeDocumentMoniker": "RetailERP.Persistence\\Configurations\\SaleCofiguration.cs",
@@ -350,7 +367,12 @@
               "RelativeToolTip": "RetailERP.Persistence\\Configurations\\SaleCofiguration.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAiwCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-16T07:58:35.413Z"
+              "WhenOpened": "2026-10-16T07:58:35.413Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
