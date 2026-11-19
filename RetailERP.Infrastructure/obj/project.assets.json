@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pc\\source\\repos\\RetailERP\\RetailERP.Infrastructure\\RetailERP.Infrastructure.csproj",
-      "projectName": "RetailERP.Infrastructure",
-      "projectPath": "C:\\Users\\pc\\source\\repos\\RetailERP\\RetailERP.Infrastructure\\RetailERP.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\pc\\source\\repos\\RetailERP\\RetailERP.Infrastructure\\Infrastructure.csproj",
+      "projectName": "Infrastructure",
+      "projectPath": "C:\\Users\\pc\\source\\repos\\RetailERP\\RetailERP.Infrastructure\\Infrastructure.csproj",
       "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\pc\\source\\repos\\RetailERP\\RetailERP.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",

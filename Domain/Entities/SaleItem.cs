@@ -1,0 +1,74 @@
+﻿using RetailERP.Domain.Common;
+using System;
+using System.Collections.Generic;
+using System.Drawing;
+using System.Text;
+
+namespace RetailERP.Domain.Entities
+{
+    public class SaleItem : BaseEntity
+    {
+        public Guid SaleId { get; private set; }
+        public Sale Sale { get; private set; } = null!;
+        public string ProductName { get; private set; }
+        public decimal UnitPrice { get; private set; }
+        public int Quantity { get; private set; }
+        public decimal TotalPrice { get; private set; }
+        public Guid ProductVariantId { get; private set; }
+        public string Color { get; private set; }
+        public string Size { get; private set; }
+        public string SKU { get; private set; }
+
+
+        private SaleItem() { }
+
+        private SaleItem(Guid productVariantId,
+            string productName,
+            decimal unitPrice,
+            int quantity,
+            string color,
+            string size,
+            string sku)
+        {
+            ProductVariantId = productVariantId;
+            ProductName = productName;
+            Color = color;
+            Size = size;
+            SKU = sku;
+            SetUnitPrice(unitPrice);
+            SetQuantity(quantity);
+            CalculateTotalPrice();
+        }
+
+        public static SaleItem Create(Guid productVariantId,
+            string productName,
+            string color,
+            string size,
+            string sku,
+            decimal unitPrice,
+            int quantity)
+        {
+            return new SaleItem(productVariantId, productName, unitPrice, quantity, color, size, sku);
+        }
+
+        private void SetUnitPrice(decimal price)
+        {
+            if (price <= 0)
+                throw new ArgumentException("Price must be greater than zero");
+
+            UnitPrice = price;
+        }
+
+        private void SetQuantity(int quantity)
+        {
+            if (quantity <= 0) throw new ArgumentException("Quantiy must be greater than zero");
+
+            Quantity = quantity;
+        }
+
+        private void CalculateTotalPrice()
+        {
+            TotalPrice = UnitPrice * Quantity;
+        }  
+    }
+}
