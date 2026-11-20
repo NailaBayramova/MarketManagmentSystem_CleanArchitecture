@@ -3,10 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\pc\\source\\repos\\RetailERP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E47CCC77-93A8-43F7-ADA4-418012251FDB}|..\\RetailERPAplication\\aplication\\aplication.csproj|c:\\users\\pc\\source\\repos\\retailerpaplication\\aplication\\repositories\\read_common\\ibonosrulereadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E47CCC77-93A8-43F7-ADA4-418012251FDB}|..\\RetailERPAplication\\aplication\\Aplication.csproj|c:\\users\\pc\\source\\repos\\retailerpaplication\\aplication\\repositories\\read_common\\ibonosrulereadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E47CCC77-93A8-43F7-ADA4-418012251FDB}|..\\RetailERPAplication\\aplication\\aplication.csproj|c:\\users\\pc\\source\\repos\\retailerpaplication\\aplication\\repositories\\read_common\\ireadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E47CCC77-93A8-43F7-ADA4-418012251FDB}|..\\RetailERPAplication\\aplication\\Aplication.csproj|c:\\users\\pc\\source\\repos\\retailerpaplication\\aplication\\repositories\\read_common\\ireadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CAFD5A55-973C-494B-AE67-4AAC1C593845}|Persistance\\Persistance.csproj|c:\\users\\pc\\source\\repos\\retailerp\\persistance\\extensions\\servicecollectionextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,7 +29,7 @@
       "RelativeMoniker": "D:0:0:{99170387-2542-42AB-892E-C019DE50F45D}|Domain\\Domain.csproj|solutionrelative:domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E47CCC77-93A8-43F7-ADA4-418012251FDB}|..\\RetailERPAplication\\aplication\\aplication.csproj|c:\\users\\pc\\source\\repos\\retailerpaplication\\aplication\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E47CCC77-93A8-43F7-ADA4-418012251FDB}|..\\RetailERPAplication\\aplication\\Aplication.csproj|c:\\users\\pc\\source\\repos\\retailerpaplication\\aplication\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -49,7 +49,7 @@
               "RelativeDocumentMoniker": "..\\RetailERPAplication\\aplication\\Repositories\\Read_Common\\IBonosRuleReadRepository.cs",
               "ToolTip": "C:\\Users\\pc\\source\\repos\\RetailERPAplication\\aplication\\Repositories\\Read_Common\\IBonosRuleReadRepository.cs",
               "RelativeToolTip": "..\\RetailERPAplication\\aplication\\Repositories\\Read_Common\\IBonosRuleReadRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-19T11:30:25.801Z",
               "EditorCaption": "",
@@ -66,7 +66,6 @@
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-19T08:34:43.861Z",
-              "EditorCaption": "",
               "OwnerCaption": "%2"
             },
             {
@@ -80,7 +79,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-19T08:16:09.603Z",
-              "EditorCaption": "",
               "OwnerCaption": "%2"
             },
             {
@@ -94,7 +92,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-19T07:55:11.668Z",
-              "EditorCaption": "",
               "OwnerCaption": "%2"
             },
             {
@@ -108,7 +105,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2026-11-19T07:46:23.262Z",
-              "EditorCaption": "",
               "OwnerCaption": "Domain"
             },
             {
@@ -119,7 +115,7 @@
               "RelativeDocumentMoniker": "..\\RetailERPAplication\\aplication\\Repositories\\Read_Common\\IReadRepository.cs",
               "ToolTip": "C:\\Users\\pc\\source\\repos\\RetailERPAplication\\aplication\\Repositories\\Read_Common\\IReadRepository.cs",
               "RelativeToolTip": "..\\RetailERPAplication\\aplication\\Repositories\\Read_Common\\IReadRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-19T06:32:39.346Z",
               "EditorCaption": "",
@@ -136,7 +132,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-19T06:37:16.431Z",
-              "EditorCaption": "",
               "OwnerCaption": "%2"
             },
             {
@@ -150,7 +145,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-19T06:16:28.761Z",
-              "EditorCaption": "",
               "OwnerCaption": "%2"
             }
           ]

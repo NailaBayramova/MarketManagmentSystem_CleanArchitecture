@@ -3,6 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\pc\\source\\repos\\RetailERP\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E47CCC77-93A8-43F7-ADA4-418012251FDB}|..\\RetailERPAplication\\aplication\\aplication.csproj|c:\\users\\pc\\source\\repos\\retailerpaplication\\aplication\\repositories\\read_common\\ibonosrulereadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E47CCC77-93A8-43F7-ADA4-418012251FDB}|..\\RetailERPAplication\\aplication\\aplication.csproj|c:\\users\\pc\\source\\repos\\retailerpaplication\\aplication\\repositories\\read_common\\ireadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CAFD5A55-973C-494B-AE67-4AAC1C593845}|Persistance\\Persistance.csproj|c:\\users\\pc\\source\\repos\\retailerp\\persistance\\extensions\\servicecollectionextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CAFD5A55-973C-494B-AE67-4AAC1C593845}|Persistance\\Persistance.csproj|solutionrelative:persistance\\extensions\\servicecollectionextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,9 +19,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CAFD5A55-973C-494B-AE67-4AAC1C593845}|Persistance\\Persistance.csproj|c:\\users\\pc\\source\\repos\\retailerp\\persistance\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CAFD5A55-973C-494B-AE67-4AAC1C593845}|Persistance\\Persistance.csproj|solutionrelative:persistance\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E47CCC77-93A8-43F7-ADA4-418012251FDB}|..\\RetailERPAplication\\aplication\\aplication.csproj|c:\\users\\pc\\source\\repos\\retailerpaplication\\aplication\\repositories\\raed_common\\ireadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{99170387-2542-42AB-892E-C019DE50F45D}|Domain\\Domain.csproj|c:\\users\\pc\\source\\repos\\retailerp\\domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -41,12 +44,26 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "IBonosRuleReadRepository.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\RetailERPAplication\\aplication\\Repositories\\Read_Common\\IBonosRuleReadRepository.cs",
+              "RelativeDocumentMoniker": "..\\RetailERPAplication\\aplication\\Repositories\\Read_Common\\IBonosRuleReadRepository.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\RetailERPAplication\\aplication\\Repositories\\Read_Common\\IBonosRuleReadRepository.cs",
+              "RelativeToolTip": "..\\RetailERPAplication\\aplication\\Repositories\\Read_Common\\IBonosRuleReadRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-19T11:30:25.801Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ServiceCollectionExtentions.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\RetailERP\\Persistance\\Extensions\\ServiceCollectionExtentions.cs",
               "RelativeDocumentMoniker": "Persistance\\Extensions\\ServiceCollectionExtentions.cs",
               "ToolTip": "C:\\Users\\pc\\source\\repos\\RetailERP\\Persistance\\Extensions\\ServiceCollectionExtentions.cs",
               "RelativeToolTip": "Persistance\\Extensions\\ServiceCollectionExtentions.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-19T08:34:43.861Z",
               "EditorCaption": "",
@@ -54,7 +71,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\RetailERP\\Persistance\\Context\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Persistance\\Context\\ApplicationDbContext.cs",
@@ -68,7 +85,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\RetailERP\\Persistance\\Class1.cs",
               "RelativeDocumentMoniker": "Persistance\\Class1.cs",
@@ -82,7 +99,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Domain",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\RetailERP\\Domain\\Domain.csproj",
               "RelativeDocumentMoniker": "Domain\\Domain.csproj",
@@ -96,7 +113,21 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
+              "Title": "IReadRepository.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\RetailERPAplication\\aplication\\Repositories\\Read_Common\\IReadRepository.cs",
+              "RelativeDocumentMoniker": "..\\RetailERPAplication\\aplication\\Repositories\\Read_Common\\IReadRepository.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\RetailERPAplication\\aplication\\Repositories\\Read_Common\\IReadRepository.cs",
+              "RelativeToolTip": "..\\RetailERPAplication\\aplication\\Repositories\\Read_Common\\IReadRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-19T06:32:39.346Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\RetailERP\\Domain\\Class1.cs",
               "RelativeDocumentMoniker": "Domain\\Class1.cs",
@@ -110,21 +141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IReadRepository.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\RetailERPAplication\\aplication\\Repositories\\Raed_Common\\IReadRepository.cs",
-              "RelativeDocumentMoniker": "..\\RetailERPAplication\\aplication\\Repositories\\Raed_Common\\IReadRepository.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\RetailERPAplication\\aplication\\Repositories\\Raed_Common\\IReadRepository.cs",
-              "RelativeToolTip": "..\\RetailERPAplication\\aplication\\Repositories\\Raed_Common\\IReadRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-19T06:32:39.346Z",
-              "EditorCaption": "",
-              "OwnerCaption": "%2"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\RetailERPAplication\\aplication\\Class1.cs",
               "RelativeDocumentMoniker": "..\\RetailERPAplication\\aplication\\Class1.cs",
